@@ -6,8 +6,29 @@ Site Base Styles
 body{
 	font:62.5%/1.3  arial,sans-serif;
 	color:#000;
-	background:#fff;
+	background:#fafafa url(../img/noisemc.png) repeat 0 0;
 	}	
+/*footer stick*/
+body,html{height: 100%;}
+.out {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-bottom: -141px;
+	}
+.push {height: 141px;}
+@font-face {
+    font-family: 'GillSansCRegular';
+    src: url('fonts/gillsansc-webfont-webfont.eot');
+    src: url('fonts/gillsansc-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gillsansc-webfont-webfont.woff') format('woff'),
+         url('fonts/gillsansc-webfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.footer{
+
+}
 /* =Misc(links)
 ----------------------------------------------- */
 a img,fieldset{border:none}
@@ -23,7 +44,99 @@ a:hover{color:#025189}
 	}
 /* =Header
 ----------------------------------------------- */
+h2{
+	font: normal 32px 'GillSansCRegular';
+}
 /* =content
 ----------------------------------------------- */
 /* =Footer
 ----------------------------------------------- */
+footer, .push {clear: both;}
+footer {
+	padding: 34px 0 32px 0;
+	font-size: 14px;
+	box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	height: 75px;
+	width: 1120px;
+	text-align: left;
+	margin: 0 auto;
+	}
+	.footer__in {
+		position: relative;
+		width: 1025px;
+		margin: 0 auto;
+		}
+		.footer__iata {
+			display: block;
+			height: 46px;
+			width: 45px;
+			margin-top: 13px;
+			background: url(../img/icons.png) 0 0 no-repeat;
+			}
+		.footer__nav {
+			position: absolute;
+			top: 0;
+			left: 263px;
+			margin-left: -13px;
+			}
+			.footer__nav a {margin: 0 13px;}
+		/* pay methods */
+		.footer__pays {
+			position: absolute;
+			top: 28px;
+			left: 263px;
+			overflow: hidden;
+			margin-left: -7px;
+			}
+			.footer__pays li {
+				float: left;
+				display: inline-block;
+				margin-left: 7px;
+				}
+				.footer__pays a {
+					display: block;
+					width: 45px;
+					height: 46px;
+					background: url(../img/icons.png) 0 0 no-repeat;
+					}
+				.footer__visa {background-position: -49px 0 !important;}
+				.footer__master {background-position:  -100px !important;}
+				.footer__qiwi {background-position: -152px 0 !important;}
+				.footer__sber {background-position:  -203px !important;}
+				.footer__ya {background-position:  -254px !important;}
+				.footer__wm {background-position:  -305px !important;}
+		/* hot line */
+		.vcard_footer {
+			position: absolute;
+			right: 20px;
+			top: 0;
+			text-align: right;
+			}
+			/* email */
+			.vcard_footer div {margin-bottom: 5px;}
+		/* socials */
+		.footer__soc {
+			position: absolute;
+			top: 46px;
+			right: 20px;
+			overflow: hidden;
+			margin-left: -3px;
+			}
+			.footer__soc li {
+				float: left;
+				display: inline-block;
+				margin-left: 3px;
+				}
+				.footer__soc a {
+					display: block;
+					width: 25px;
+					height: 25px;
+					background: url(../img/soc.png) 0 0 no-repeat;
+					}
+					.footer__vk {background-position: -25px 0 !important;}
+					.footer__tw {background-position: -51px 0 !important;}
+					.footer__odn {background-position: -76px 0 !important;}
+
