@@ -1,0 +1,29 @@
+/*
+-----------------------------------------------
+Site Base Styles
+----------------------------------------------- */
+*{margin:0;padding:0}
+body{
+	font:62.5%/1.3  arial,sans-serif;
+	color:#000;
+	background:#fff;
+	}	
+/* =Misc(links)
+----------------------------------------------- */
+a img,fieldset{border:none}
+.pda, .print, legend{display:none}
+a{color:#0172c3}
+a:visited{color:#2787cc;}
+a:hover{color:#025189}
+.clr{
+	clear:both;
+	height:1px;
+	font-size:1px;
+	line-height:1px;
+	}
+/* =Header
+----------------------------------------------- */
+/* =content
+----------------------------------------------- */
+/* =Footer
+----------------------------------------------- */

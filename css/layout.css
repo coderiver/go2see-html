@@ -1,0 +1,8 @@
+body{
+	text-align:center;
+	}
+	#out, .in{
+		margin:0 auto;
+		text-align:left;
+		width:970px;
+		}
