@@ -1,0 +1,224 @@
+.steps{
+	color:#8f8f8f;
+	margin-bottom: 14px;
+	}
+	.steps em{
+		font-style:normal;
+		}
+	.steps__done{
+		color: #000;
+		}
+	.steps strong{
+		color: #000;
+		}
+.order-block{
+	border-radius:10px;
+	background: #f7f7f7;
+	margin-bottom: 20px;
+	}
+	.order-block:last-child{
+		margin-bottom: 0;
+		}
+	.content-block ul{
+		margin-top: 5px;
+		font-size: 14px;
+		}
+	.content-block li{
+		margin-bottom: 10px;
+		}
+	.content-block h3{
+		font-size: 18px;
+		}
+.order-block_shadow{
+	box-shadow:3px 3px 3px rgba(0,0,0,0.3)
+	}
+	.order-block__header{
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-top: 1px solid #e0e0e0;
+		background: #fefefe;
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMWUxZTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+		background: -moz-linear-gradient(top, #fefefe 0%, #e1e1e1 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#e1e1e1));
+		background: -webkit-linear-gradient(top, #fefefe 0%,#e1e1e1 100%);
+		background: -o-linear-gradient(top, #fefefe 0%,#e1e1e1 100%);
+		background: -ms-linear-gradient(top, #fefefe 0%,#e1e1e1 100%);
+		background: linear-gradient(to bottom, #fefefe 0%,#e1e1e1 100%);
+		text-align: center;
+		padding: 10px 0;
+		}
+		.order-block__header h2{
+			font-size: 24px;
+			font-weight: normal;
+			}
+	.order-block__content{
+		padding: 10px 20px 15px 20px;
+		}
+	.flight__wait{
+		text-align: center;
+		font-size: 13px;
+		color: #8f8f8f;
+		border-top: 1px solid #d2d2d2;
+		padding-top: 13px;
+		margin-top: 14px;
+		margin-bottom: 10px;
+		}
+		.flight__wait span{
+			padding:3px 0 3px 26px;
+			display: inline-block;
+			background: url(../img/icon-wait.png) no-repeat 0 20%;
+			}
+	.flight__details{
+		width: 100%;
+		border-spacing: 0;
+		border-collapse: collapse;
+		}
+	.flight__details td{
+		vertical-align: top;
+		font-size: 14px;
+		}
+		.flight__details td span{
+			color: #1797ae;
+			display: block;
+			}
+		.flight__details thead th{
+			vertical-align: top;
+			padding:4px 0 12px;
+			text-align: left;
+			font-weight: normal;
+			font-size: 13px;
+			color: #8f8f8f;
+			}
+			.flight__details .flight__company{
+				width: 96px;
+				vertical-align: middle;
+				}
+			.flight__departure{
+				width: 196px;
+				font-weight: bold;
+				font-size: 15px;
+				}
+			.flight__arrival{
+				width: 186px;
+				font-weight: bold;
+				font-size: 15px;
+				}
+			.flight__plane{
+				width: 166px;
+				}
+.flight__header{
+	margin-bottom: 12px;
+	padding-top: 5px;
+	}
+	.flight__header h3{
+		font-size: 24px;
+		font-weight: bold;
+		display: inline-block;
+		}
+		.flight__start{
+			color: #fe3b83;
+			}
+		.flight__destination{
+			color: #1797ae;
+			}
+		.icon-plane{
+			display: inline-block;
+			width: 31px;
+			height: 31px;
+			background: url(../img/icon-plane.png) no-repeat 0 0;
+			vertical-align: middle;
+			margin: 0 5px;
+			}
+		.flight__date{
+			font-size: 15px;
+			margin-left: 10px;
+			}
+.bill{
+	box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.9);
+	text-align: center;
+	padding-bottom: 24px;
+	margin-bottom: 14px;
+	padding: 14px 20px 24px 20px;
+	background: #2ec8d8 url(../img/bill.png) repeat-x -3px 100%;
+	}
+	.bill h3{
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1;
+		margin-bottom: 15px;
+		}
+		.bill h3 span{
+			display: block;
+			padding-top: 3px;
+			font-size: 14px;
+			font-weight: normal;
+			}
+
+	.bill table{
+		width: 100%;
+		border-spacing: 0;
+		border-collapse: collapse;
+		}
+		.bill td,.bill th{
+			padding-bottom: 9px;
+		}
+		.bill th{
+			font-weight: bold;
+			text-align: left;
+			font-size: 15px;
+			color: #fff;
+			}
+		.bill td{
+			text-align: right;
+			font-size: 14px;
+			}
+			.bill td strong{
+				font-size: 15px;
+				}
+	.bill-itogo{
+		text-align: center;
+		color: #fe3b83;
+		margin-bottom: 18px;
+		}
+		.bill-itogo h3{
+			font-size: 18px;
+			text-align: center;
+			font-weight: bold;
+			color: #000;
+			}
+		.bill-itogo strong{
+			font-size: 42px;
+			font-weight: normal;
+			display: inline-block;
+			vertical-align: middle;
+			}
+		.bill-itogo span{
+			font-size: 24px;
+			display: inline-block;
+			vertical-align: middle;
+			}
+		.bill-left{
+			font-size: 14px;
+			}
+			.bill-left em{
+				font-style:normal;
+				color: #fe3b83;
+				}
+/*orderform
+--------------------------------------*/
+.order-login{
+	font-size: 15px;
+	}
+	.order-login h3{
+		font-size: 15px;
+		font-weight: normal;
+		margin-bottom: 14px;
+		}
+		.order-login h3 a{
+			font-size: 24px;
+			}
+		.order-login h3 a.order-login__active{
+			color: #fe3b83;
+			text-decoration: none;
+			}

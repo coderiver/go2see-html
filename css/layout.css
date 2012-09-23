@@ -1,9 +1,21 @@
 body{
 	text-align:center;
 	}
-	.out{
+	.page-content,.page-header__in{
 		margin-left: auto;
 		margin-right: auto;
 		text-align:left;
 		width:990px;
 		}
+	.layout{
+		width: 100%;
+		display: inline-block;
+		}
+		.layout__col1{
+			width: 686px;
+			float: left;
+			}
+		.layout__col2{
+			float: right;
+			width: 240px;
+			}
