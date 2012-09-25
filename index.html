@@ -285,11 +285,136 @@
 								<h3><a href="#" class="order-login__active">Я новый покупатель</a> или <a href="#">уже зарегистрирован</a></h3>
 								<p>Введите адрес электронной почты и номер мобильного телефона для связи и 
 отправки <a href="#">маршрутной квитанции</a></p>
+								<form action="/" class="form form_loginregister">
+									<div class="field">
+										<label for="as">Электронная почта</label>
+										<input type="text" class="input" placeholder="электронная@почта.ру" id="as">
+									</div>
+									<div class="field">
+										<label for="as1">Мобильный телефон</label>
+										<input type="text" class="input" placeholder="+7 (000) 000-00-00" id="as1">
+									</div>
+								</form>
 							</div>
 							<!-- END order-login-->
 						</div>
 					</div>
 					<!-- END order-block-->
+
+					<!-- BEGIN  order-block-->
+					<div class="order-block">
+						<header class="order-block__header">
+							<h2>Пассажиры</h2>
+						</header>
+						<div class="order-block__content">
+							<!-- BEGIN  order-fill-->
+							<div class="order-fill">
+								<h3>Взрослые</h3>
+								<p>Имя и фамилия пишутся латинскими буквами, как в загранпаспорте. Номер паспорта 
+пишется без пробелов.</p>
+								<form action="/" class="form">
+									<div class="field field_sex">
+										<label for="as1">Пол</label>
+										<div class="sex"><div class="sex__male sex__active">M</div><div class="sex__female">Ж</div></div>
+									</div>
+									<div class="field field_name">
+										<label for="as12">Имя</label>
+										<div class="input__wrap"><input type="text" class="input input_error" placeholder="Латинскими буквами" id="as"><div class="input__errormessage">Введите ваше имя</div></div>
+									</div>
+									<div class="field field_lastname">
+										<label for="as13">Фамилия</label>
+										<input type="text" class="input" placeholder="Латинскими буквами" id="as13">
+									</div>
+									<div class="field field_date">
+										<label for="as14">Дата рождения</label>
+										<input type="text" class="input input_day" placeholder="дд" id="as14"><input type="text" class="input input_month" placeholder="мм" ><input type="text" class="input input_year" placeholder="гггг" >
+									</div>
+									<div class="field field_nation">
+										<label for="as15">Гражданство</label>
+										<div class="select">
+											<div class="select__visual">Российская федерация</div>
+											<select><option>Российская федерация</option></select>
+										</div>
+									</div>
+									<div class="field field_document">
+										<label for="as16">Тип документа</label>
+										<div class="select">
+											<div class="select__visual">Паспорт</div>
+											<select><option>Паспорт</option></select>
+										</div>
+									</div>
+									<div class="field field_documentid">
+										<label for="as17">Номер документа</label>
+										<input type="text" class="input" placeholder="ccccнннннн" id="as17">
+									</div>
+									<div class="field field_date">
+										<label for="as141">Срок действия</label>
+										<input type="text" class="input input_day" placeholder="дд" id="as141"><input type="text" class="input input_month" placeholder="мм" ><input type="text" class="input input_year" placeholder="гггг" >
+										
+									</div>
+								</form>
+							</div>
+							<!-- END order-fill-->
+						</div>
+					</div>
+					<!-- END order-block-->
+
+
+					<!-- BEGIN  order-block-->
+					<div class="order-block">
+						<div class="order-block__content">
+							<!-- BEGIN  order-fill-->
+							<div class="order-fill">
+								<h3>Дети от 2 до 12 лет</h3>
+								<p>Если Вы литетите с ребенком, то на дату вылета его возраст должен быть от 2-х до 
+12-ти лет.</p>
+								<form action="/" class="form">
+									<div class="field field_sex">
+										<label for="as1">Пол</label>
+										<div class="sex"><div class="sex__male sex__active">M</div><div class="sex__female">Ж</div></div>
+									</div>
+									<div class="field field_name">
+										<label for="as12">Имя</label>
+										<div class="input__wrap"><input type="text" class="input input_error" placeholder="Латинскими буквами" id="as"><div class="input__errormessage">Введите ваше имя</div></div>
+									</div>
+									<div class="field field_lastname">
+										<label for="as13">Фамилия</label>
+										<input type="text" class="input" placeholder="Латинскими буквами" id="as13">
+									</div>
+									<div class="field field_date">
+										<label for="as14">Дата рождения</label>
+										<input type="text" class="input input_day" placeholder="дд" id="as14"><input type="text" class="input input_month" placeholder="мм" ><input type="text" class="input input_year" placeholder="гггг" >
+									</div>
+									<div class="field field_nation">
+										<label for="as15">Гражданство</label>
+										<div class="select">
+											<div class="select__visual">Российская федерация</div>
+											<select><option>Российская федерация</option></select>
+										</div>
+									</div>
+									<div class="field field_document">
+										<label for="as16">Тип документа</label>
+										<div class="select">
+											<div class="select__visual">Паспорт</div>
+											<select><option>Паспорт</option></select>
+										</div>
+									</div>
+									<div class="field field_documentid">
+										<label for="as17">Номер документа</label>
+										<input type="text" class="input" placeholder="ccccнннннн" id="as17">
+									</div>
+									<div class="field field_date">
+										<label for="as141">Срок действия</label>
+										<input type="text" class="input input_day" placeholder="дд" id="as141"><input type="text" class="input input_month" placeholder="мм" ><input type="text" class="input input_year" placeholder="гггг" >
+										<div class="field__sub"><input type="checkbox" name="" id="as123"><label for="as123">Нет срока действия </label></div>
+									</div>
+								</form>
+							</div>
+							<!-- END order-fill-->
+						</div>
+					</div>
+					<!-- END order-block-->
+
 				</div>
 				<!-- END layout__col1-->
 
@@ -309,6 +434,75 @@
 			</div>
 			<!-- END layout-->
 
+		</div>
+		<!-- END content-block-->
+
+
+		<!-- BEGIN  content-block-->
+		<div class="content-block">
+			
+
+			<!-- BEGIN  layout-->
+			<div class="layout">
+				<!-- BEGIN  layout__col1-->
+				<div class="layout__col1">
+					<!-- BEGIN  order-block-->
+					<div class="order-block">
+						<header class="order-block__header">
+							<h2>Оплата</h2>
+						</header>
+						<!-- BEGIN  order-block__content-->
+						<div class="order-block__content">
+							<!-- BEGIN  paymethods-->
+							<div class="paymethods">
+							<h3>Выберите метод оплаты</h3>
+							<ul class="paymethods__list">
+								<li class="paymethods__active"><input type="radio" name="pm" id="pm1"><label for="pm1">Кредитные и дебетовые карты <strong>Visa</strong> или <strong>MasterCard</strong></label>
+									<div class="paymethods__price"><b>29 550</b> руб.</div>
+									<div class="paymethods__descr">
+										Вы можете забронировать Ваши билеты и оплатить позднее любым из перечисленных
+выше способов.Внимание! Забронированные билеты должны быть оплачены в течение 
+24 часов.
+									</div>
+								</li>
+								<li><input type="radio" name="pm" id="pm1"><label for="pm1">Кредитные и дебетовые карты <strong>Visa</strong> или <strong>MasterCard</strong></label>
+									<div class="paymethods__price"><b>29 550</b> руб.</div>
+								</li>
+								<li><input type="radio" name="pm" id="pm1"><label for="pm1">Кредитные и дебетовые карты <strong>Visa</strong> или <strong>MasterCard</strong></label>
+									<div class="paymethods__price"><b>29 550</b> руб.</div>
+									<li><input type="radio" name="pm" id="pm1"><label for="pm1">Кредитные и дебетовые карты <strong>Visa</strong> или <strong>MasterCard</strong></label>
+									<div class="paymethods__price"><b>29 550</b> руб.</div>
+									<li><input type="radio" name="pm" id="pm1"><label for="pm1">Кредитные и дебетовые карты <strong>Visa</strong> или <strong>MasterCard</strong></label>
+									<div class="paymethods__price"><b>29 550</b> руб.</div>
+									<li><input type="radio" name="pm" id="pm1"><label for="pm1">Кредитные и дебетовые карты <strong>Visa</strong> или <strong>MasterCard</strong></label>
+									<div class="paymethods__price"><b>29 550</b> руб.</div>
+							</ul>
+							</div>
+							<!-- END paymethods-->
+						</div>
+						<!-- END order-block__content-->
+					</div>
+					<!-- END order-block-->
+				</div>
+				<!-- END layout__col1-->
+
+				<!-- BEGIN  layout__col2-->
+				<div class="layout__col2">
+					<h3>Безопасность</h3>
+					<p>Вся информация, которую вы продоствляете компании Go2See через данные сайт, кодируется и защищена технологией Thawte SSL
+					<a href="#">Узнать больше о сертификатах Thawte SSL</a></p>
+
+				</div>
+				<!-- END layout__col2-->
+			</div>
+			<!-- END layout-->
+			<!-- BEGIN  itog-->
+			<div class="itog">
+				<div class="itog__price"><strong>Итоговая цена</strong>  <em class="itog__pricenum"><b>35 550</b> руб.</em></div>
+				<div class="itog__oferta">Я принимаю условия оферты, договоров IATA и правил тарифов на выбраный перелёт</div>
+				<a href="#" class="itog__book">Забронировать</a>	
+			</div>
+			<!-- END itog-->
 		</div>
 		<!-- END content-block-->
 	</div>

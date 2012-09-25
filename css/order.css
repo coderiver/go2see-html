@@ -29,6 +29,9 @@
 	.content-block h3{
 		font-size: 18px;
 		}
+		.layout__col2 h3{
+			margin-bottom: 5px;
+		}
 .order-block_shadow{
 	box-shadow:3px 3px 3px rgba(0,0,0,0.3)
 	}
@@ -221,4 +224,293 @@
 		.order-login h3 a.order-login__active{
 			color: #fe3b83;
 			text-decoration: none;
+			}
+.form{
+	width: 100%;
+	display: inline-block;
+	margin: 0px 0 5px 0;
+	}
+.form_loginregister .field{
+	width: 320px;
+	float: left;
+	margin-right: 0;
+	}
+	.field label{
+		font-size: 14px;
+		display: block;
+		padding-bottom: 6px;
+		}
+	.input{
+		border: 1px solid #c9c9c9;
+		border-radius:8px;
+		height: 32px;
+		line-height: 30px;
+		font-size: 14px;
+		display: block;
+		width: 100%;
+		padding: 0 10px;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+		.input_error{
+			border-color: #fe3b83;
+		}
+		.input__wrap{
+			position: relative;
+			z-index:20;
+		}
+		.input__errormessage{
+			font-size: 13px;
+			position: absolute;
+			color: #fff;
+			padding: 5px 13px 5px 8px;
+			background: #fe3b83;
+			border-radius: 5px;
+			left: 0;
+			top: 33px;
+			display: inline-block;
+			white-space:nowrap;
+			}
+			.input__errormessage:before{
+				position: absolute;
+				left:9px;
+				top: -7px;
+				content:' ';
+				width: 0px;
+				height: 0px;
+				border-style: solid;
+				border-width: 0 6px 7px 6px;
+				border-color: transparent transparent #fe3b83 transparent;
+				}
+		::-webkit-input-placeholder {
+			color: #8f8f8f;
+		}
+		:-moz-placeholder {
+		    color: #8f8f8f;
+		}
+		:-ms-input-placeholder {
+		    color: #8f8f8f;
+		}
+
+	.form_loginregister .field:last-child{
+		width: 308px;
+		float: right;
+		margin-right: 0;
+		}
+/* order fill
+=------------*/
+.order-fill{
+	font-size: 15px;
+	}
+.order-fill h3{
+	font-size: 24px;
+	font-weight: normal;
+	color: #8f8f8f;
+	margin-bottom: 10px;
+	}
+.field{
+	float: left;
+	margin-right: 14px;
+	margin-top: 16px;
+	}
+.field__sub label{
+	font-size: 11px;
+	display: inline;
+	}
+.field__sub input{
+	margin-right: 4px;
+	}
+.select{
+	position: relative;
+	}
+	.select__visual{
+		border: 1px solid #c9c9c9;
+		height: 30px;
+		line-height: 30px;
+		white-space: nowrap;
+		overflow: hidden;
+		padding: 0 30px 0 10px;
+		background:#fff url(../img/select.png) no-repeat 100% 50%;
+		border-radius:8px;
+		font-size: 14px;
+		}
+	.select select{
+		position: absolute;
+		font-size: 30px;
+		top: 1px;
+		left: 0;
+		width: 100%;
+		opacity:0
+		}
+.input_day{
+	width: 40px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	}
+.input_year{
+	width: 41px;
+	border-top-left-radius: 0;	
+	border-bottom-left-radius: 0;
+	}
+.input_month{
+	width: 41px;
+	border-radius:0;
+	border-left: none;
+	border-right: none;
+	}
+.sex div{
+	
+	}
+	.sex__male,.sex__female{
+		display: inline-block;
+		height: 30px;
+		border: 1px solid #c9c9c9;
+		background: #fff;
+		width: 35px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 14px;
+		color: #8f8f8f;
+		border-radius: 8px;
+		cursor: pointer;
+		}
+	.sex__female{
+		border-top-left-radius: 0;	
+		border-bottom-left-radius: 0;
+		border-left: none;
+		}
+	.sex__male{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		}
+	.sex__active{
+		color: #fff;
+		background: #0c8ea1;
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBjOGVhMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1OWQ2ZGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+		background: -moz-linear-gradient(top, #0c8ea1 0%, #59d6de 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0c8ea1), color-stop(100%,#59d6de));
+		background: -webkit-linear-gradient(top, #0c8ea1 0%,#59d6de 100%);
+		background: -o-linear-gradient(top, #0c8ea1 0%,#59d6de 100%);
+		background: -ms-linear-gradient(top, #0c8ea1 0%,#59d6de 100%);
+		background: linear-gradient(to bottom, #0c8ea1 0%,#59d6de 100%);
+		}
+/*Random things*/
+.field_sex{
+	width: 74px;
+	}
+.field_name{
+	width: 208px;
+	}
+.field_lastname{
+	width: 196px;
+	}
+.field_date{
+	width: 122px;
+	float: right;
+	margin-right: 0;
+	}
+	.field_date input{
+		display: inline-block;
+		padding: 0;
+		text-align: center;
+		}
+.field_nation{
+	width: 200px;
+	}
+.field_document{
+	width: 153px;
+	}
+.field_documentid{
+	width: 122px;
+	}
+/* pay methods
+--------------------------*/
+.itog{
+	text-align: center;
+	font-size: 13px;
+	padding-top: 10px;
+	}
+	.itog__price strong{
+		font-size: 24px;
+		font-weight: bold
+		}	
+		.itog__pricenum{
+			color: #fe3b83;
+			font-size: 24px;
+			font-weight: normal;
+			font-style: normal;
+			margin-left: 10px;
+			}
+			.itog__pricenum b{
+				font-size: 42px;
+				font-weight: normal;
+				vertical-align:middle;
+				}
+		.itog__oferta{
+			margin-bottom: 10px;
+		}
+		.itog__book{
+			display: inline-block;
+			font-size: 24px;
+			font-weight: bold;
+			color: #604600;
+			text-shadow:0 1px 0 #ffe8a3;
+			text-decoration: none;
+			padding: 8px 30px;
+			border-radius: 10px;
+			box-shadow: 0 4px 4px -4px #000;
+			background: #ffe76c;
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTc2YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmI0MGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+			background: -moz-linear-gradient(top, #ffe76c 0%, #ffb40c 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe76c), color-stop(100%,#ffb40c));
+			background: -webkit-linear-gradient(top, #ffe76c 0%,#ffb40c 100%);
+			background: -o-linear-gradient(top, #ffe76c 0%,#ffb40c 100%);
+			background: -ms-linear-gradient(top, #ffe76c 0%,#ffb40c 100%);
+			background: linear-gradient(to bottom, #ffe76c 0%,#ffb40c 100%);
+			}
+/* paymethods
+-----------------------*/
+.paymethods{
+
+	}
+	.paymethods h3{
+		font-size: 24px;
+		font-weight: normal;
+		color: #8f8f8f;
+		margin-bottom: 13px;
+		}
+	.paymethods__list{
+		list-style:none;
+		font-size: 14px;
+		}
+		.paymethods__list li{
+			position: relative;
+			margin-bottom: 16px;
+			}
+		.paymethods__list input{
+			margin-right: 12px;
+			vertical-align: middle;
+			}
+		.paymethods__price{
+			position: absolute;
+			right: 0;
+			color: #8f8f8f;
+			text-shadow:0 1px 0 #fff;
+			top: -3px;
+			white-space: nowrap;
+			text-align: right;
+			line-height: 1;
+			}
+			.paymethods__price b{
+				font-size: 18px;
+				}
+		.paymethods__descr{
+			background: #fff;
+			padding: 8px 16px;
+			border-radius: 10px;
+			margin-top: 10px;
+			}
+		.paymethods__active .paymethods__price{
+			color: #fe3b83;
 			}
